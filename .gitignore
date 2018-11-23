@@ -1,0 +1,9 @@
+*.a
+*.mod
+*.o
+*.so
+*.tgz
+cppfine/test
+slatec/src
+symb_diffs/__pycache__
+symb_diffs/*.f90
