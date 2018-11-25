@@ -10,7 +10,7 @@ symb_diffs/heston_psi.f90 symb_diffs/heston_psi_grad.f90: symb_diffs/heston.py s
 	cd symb_diffs; python3 heston.py
 
 ffine/fine.a: slatec/slatec.a symb_diffs/heston_psi.f90 symb_diffs/heston_psi_grad.f90
-	cd ffine; make fine.a
+	cd ffine; make
 
 cfine/fine.a: ffine/fine.a
 	cd cfine; make fine.a

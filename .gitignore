@@ -3,6 +3,7 @@
 *.o
 *.so
 *.tgz
+ffine/test
 cppfine/test
 slatec/src
 symb_diffs/__pycache__
